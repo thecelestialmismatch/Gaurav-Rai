@@ -85,10 +85,16 @@ test('the CV points to the portfolio and LinkedIn, and lists references', () => 
   assert.equal(cv.references, 'Available on request.');
 });
 
-test('the WhatsApp, Messenger and Instagram work sits under Bendigo Telco', () => {
+test('the Amazon Connect and AWS work sits under Reporting Analyst at Bendigo Telco', () => {
+  // Confirmed by Gaurav. The messaging, CCP panel, monitoring and HaloPSA work all happened in this role.
   const bendigo = cv.experience.find((e) => e.company === 'Bendigo Telco');
-  const text = bendigo.roles.flatMap((r) => r.bullets).join(' ');
-  for (const channel of ['WhatsApp', 'Facebook Messenger', 'Instagram', 'Amazon Connect']) assert.ok(text.includes(channel), channel);
+  const role = bendigo.roles.find((r) => r.title.startsWith('Reporting Analyst'));
+  const text = role.bullets.join(' ');
+  for (const term of ['WhatsApp', 'Facebook Messenger', 'Instagram', 'Amazon Connect', 'Lambda', 'DynamoDB', 'CloudTrail', 'Terraform', 'HaloPSA']) {
+    assert.ok(text.includes(term), term);
+  }
+  const elsewhere = bendigo.roles.filter((r) => r !== role).flatMap((r) => r.bullets).join(' ');
+  assert.doesNotMatch(elsewhere, /WhatsApp|CloudTrail|HaloPSA/, 'listed twice');
 });
 
 test('the cover letter follows the writing rules', () => {

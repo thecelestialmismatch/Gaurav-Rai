@@ -36,18 +36,17 @@
           "dates": "Aug 2025 to Sep 2026",
           "bullets": [
             "Rebuilt CX reporting in SQL and Power BI, replacing hand built spreadsheets with weekly CSAT, AHT and SLA dashboards.",
+            "Connected WhatsApp, Facebook Messenger and Instagram to Amazon Connect from pilot to production, with Node.js Lambda functions and DynamoDB handling real time chat routing.",
+            "Built a React panel in the agent workspace that loads the HaloPSA record on call pop, cutting average handle time 25%.",
             "Gathered reporting requirements across the business, checked data quality before release and raised data risks.",
-            "Maintained Power BI, Excel and MSPBots dashboards and moved the Amazon Connect configuration into Terraform."
+            "Maintained Power BI, Excel and MSPBots dashboards and moved the Amazon Connect configuration into Terraform.",
+            "Rebuilt AWS monitoring after a root account compromise with CloudTrail, CloudWatch and Budgets alerts, and moved all Jira tickets into HaloPSA with no data lost."
           ]
         },
         {
           "title": "CX Enablement Intern",
           "dates": "Mar 2025 to Jul 2025",
-          "bullets": [
-            "Connected WhatsApp, Facebook Messenger and Instagram to Amazon Connect from pilot to production, with Node.js Lambda functions and DynamoDB handling real time chat routing.",
-            "Built a React panel in the agent workspace that loads the HaloPSA record on call pop, cutting average handle time 25%.",
-            "Rebuilt AWS monitoring after a root account compromise with CloudTrail, CloudWatch and Budgets alerts, and moved all Jira tickets into HaloPSA with no data lost."
-          ]
+          "bullets": []
         }
       ]
     },
