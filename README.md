@@ -1,9 +1,9 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:A855F7&height=220&section=header&text=Gaurav%20Rai&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Cloud%20Engineer%20%7C%20Amazon%20Connect%20%C2%B7%20AWS%20%C2%B7%20AI%20%7C%20Melbourne&descSize=18&descAlignY=60&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:A855F7&height=220&section=header&text=Gaurav%20Rai&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Data%20Analyst%20%26%20Cloud%20Engineer%20%7C%20Melbourne&descSize=18&descAlignY=60&animation=fadeIn" alt="header" />
 
 <a href="https://github.com/thecelestialmismatch">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=900&color=8B5CF6&center=true&vCenter=true&width=720&lines=Cloud+engineer+for+regulated+industries;Amazon+Connect+%C2%B7+AWS+%C2%B7+Terraform;SQL+and+Power+BI+reporting;Building+HoundShield+with+Claude+Code+and+Codex" alt="typing-svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=900&color=8B5CF6&center=true&vCenter=true&width=720&lines=Data+analyst+and+cloud+engineer+in+Melbourne;SQL+%C2%B7+Power+BI+%C2%B7+Amazon+Connect+%C2%B7+AWS;Building+HoundShield+with+Claude+Code+and+Codex;Open+to+analyst+roles+%C2%B7+available+now" alt="typing-svg" />
 </a>
 
 <br/>
@@ -11,6 +11,7 @@
 ![Master of IT](https://img.shields.io/badge/Master_of_IT-Cloud_Analytics_%C2%B7_La_Trobe-8B5CF6?style=for-the-badge&logo=googlescholar&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Amazon_Connect_%C2%B7_AWS_%C2%B7_AI-7C3AED?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Based in](https://img.shields.io/badge/Based_in-Melbourne-6366F1?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Open to](https://img.shields.io/badge/Open_to-Analyst_roles_%C2%B7_available_now-22C55E?style=for-the-badge&logo=linkedin&logoColor=white)
 
 <br/>
 
@@ -42,14 +43,14 @@
 
 <img align="right" width="320" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1000&color=6366F1&center=false&vCenter=true&width=320&height=140&multiline=true&lines=%3E+const+gaurav+%3D+%7B;++base%3A+%27Melbourne%27%2C;++builds%3A+%27Connect+%2B+AWS+%2B+AI%27%2C;++ships%3A+%27to+production%27%2C;%7D%3B" alt="about-snippet" />
 
-I'm a cloud engineer in Melbourne. I build **AWS and Amazon Connect** systems for contact centres, and the **reporting** that shows whether they work. Before cloud I spent close to five years in contact centres and IT support, first taking the calls and then leading a team of fifteen, so I build for the agent on the other side of the screen.
+I'm a data analyst and cloud engineer based in Melbourne. I build **AWS and Amazon Connect** systems for contact centres, and the **SQL and Power BI reporting** that shows whether they work. Before cloud I spent close to five years in contact centres and IT support, first taking the calls and then leading a team of fifteen, so I build for the agent on the other side of the screen.
 
 - ☁️ **Amazon Connect**: WhatsApp, Facebook Messenger and Instagram routed into Connect, piloted and deployed to production. A CRM panel in the CCP that cut average handle time by 25%.
 - 🏗️ **AWS and Terraform**: Lambda, DynamoDB, API Gateway, CloudWatch and CloudTrail, with the Connect setup managed in Terraform.
 - 📊 **Data and reporting**: SQL, Power BI and MSPBots dashboards for CSAT, AHT and SLA.
 - 🤖 **Building with AI**: Claude Code and Codex as coding agents, Claude and OpenRouter APIs inside the products, and MCP to connect agents to tools.
 
-**Open to** → cloud, data and Amazon Connect roles in Melbourne.
+**Open to** → data, reporting and business analyst roles, plus cloud and Amazon Connect roles, in Melbourne. **Available now.**
 
 ---
 
@@ -174,16 +175,16 @@ Client reporting for managed service providers, built around the question every 
 ## ⟡ Experience
 
 **Reporting Analyst · Bendigo Telco**
-`Aug 2025 — Present` · Bendigo, VIC
+`Aug 2025 — Sep 2026`
 
 - Rebuilt the reporting cycle in SQL and Power BI, replacing hand-built spreadsheets with weekly CSAT, AHT and SLA reporting.
-- Design and maintain dashboards in Power BI, Excel and MSPBots for customer experience and operations.
-- Support the Amazon Connect rollout, including moving the Connect setup into Terraform.
+- Designed and maintained dashboards in Power BI, Excel and MSPBots for customer experience and operations.
+- Supported the Amazon Connect rollout, including moving the Connect setup into Terraform.
 
 <br/>
 
 **CX Enablement (internship) · Bendigo Telco**
-`Mar 2025 — Jul 2025` · Bendigo, VIC
+`Mar 2025 — Jul 2025`
 
 - Piloted, then deployed to production, WhatsApp, Facebook Messenger and Instagram messaging into Amazon Connect, on Node.js Lambda functions for real-time chat routing.
 - Built a React and TypeScript panel in the Connect CCP that pulls the HaloPSA customer record on call pop. Average handle time dropped 25%.
@@ -193,21 +194,21 @@ Client reporting for managed service providers, built around the question every 
 <br/>
 
 **IT Support Specialist · Oceaneering**
-`Mar 2023 — Jun 2023` · Chandigarh, India
+`Mar 2023 — Jun 2023`
 
 - Closed 95% of Level 1 and Level 2 tickets inside SLA for 200+ users. A Python and SQL dashboard of ticket patterns cut repeat incidents by 20%.
 
 <br/>
 
 **Team Lead · Future Work Technologies**
-`Jan 2022 — Jan 2023` · Chandigarh, India
+`Jan 2022 — Jan 2023`
 
 - Led fifteen agents across voice, email and chat. QA scripts and agent KPIs took CSAT from 82% to 91% in six months.
 
 <br/>
 
 **Senior IT Support Analyst, IT Support Analyst · eClerx**
-`Aug 2018 — Jan 2022` · Chandigarh, India
+`Aug 2018 — Jan 2022`
 
 - Ran operations and sales targets across eight automotive dealerships with five analysts reporting in. A CRM escalation workflow cut escalations by 25%.
 
@@ -297,10 +298,11 @@ Capstone: a secure AWS serverless ingestion pipeline on API Gateway, Lambda and 
 ```yaml
 building:
   - HoundShield: local-only AI prompt inspection for regulated teams
-shipping:
-  - Amazon Connect and reporting at Bendigo Telco
 open_to:
-  - Cloud, data and Amazon Connect roles in Melbourne
+  - Data, reporting and business analyst roles
+  - Cloud and Amazon Connect roles
+based_in: Melbourne
+available: now
 ```
 
 ---
