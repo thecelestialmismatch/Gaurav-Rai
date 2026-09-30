@@ -30,6 +30,15 @@
 </a>
 
 <br/>
+
+<a href="https://gauravraiji.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-gauravraiji.vercel.app-0E6A5B?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" />
+</a>
+<a href="https://github.com/thecelestialmismatch/Gaurav-Rai/raw/main/site/Gaurav_Rai_CV.pdf">
+  <img src="https://img.shields.io/badge/CV-Download_PDF-15201D?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="download CV" />
+</a>
+
+<br/>
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=thecelestialmismatch&label=Profile%20Views&color=8B5CF6&style=for-the-badge" alt="profile-views" />
@@ -115,7 +124,7 @@ I'm an AI and data analyst and Amazon Connect engineer based in Melbourne. I bui
 | **Codex** | Second coding agent on the same codebase, working from `AGENTS.md` |
 | **Claude and OpenRouter APIs** | LLM features inside the products I ship |
 | **MCP** | Connecting agents to real tools and data |
-| **Multi-agent pipelines** | VibeFlow runs agents through research, generation and delivery with hand-offs and recovery |
+| **Checks before trust** | Agent-written code merges only after tests pass; RipoDoc also runs a zero-egress audit in CI |
 
 </div>
 
@@ -151,22 +160,25 @@ Client reporting for managed service providers, built around the question every 
 
 | Aspect | Detail |
 | :--- | :--- |
-| **Stack** | TypeScript |
-| **Traceability** | Every figure in a delivered PDF links through to the rows behind it |
+| **Stack** | TypeScript · Next.js · PostgreSQL · Docker |
+| **Built** | Feb 2026 to Aug 2026 · 130 commits · self-hostable |
+| **Traceability** | Every figure in a delivered PDF opens only the approved rows behind it |
 | **Access** | Scoped to the person who received the report · links expire and can be revoked · every view is logged |
-| **Link** | [ripodoc.com](https://ripodoc.com) |
+| **Audit** | SHA-256 hash-chained access log, verifiable offline |
+| **Link** | [ripodoc.com](https://ripodoc.com) · source is private |
 
 </details>
 
 <details>
-<summary><b>🟣 VibeFlow: multi-agent video pipeline</b></summary>
+<summary><b>🟣 VibeFlow: in-browser AI leak scanner</b></summary>
 <br/>
 
 | Aspect | Detail |
 | :--- | :--- |
-| **Stack** | TypeScript · Supabase · Remotion |
-| **Agents** | LLM agents move through research, generation and delivery stages with explicit hand-offs, shared state and recovery when a stage fails |
-| **Output** | Personalised video pitches rendered from structured data with Remotion, with no manual editing |
+| **Stack** | TypeScript · Next.js · Supabase · Stripe · Chrome extension (Manifest V3) |
+| **Built** | Mar 2026 to May 2026 |
+| **Extension** | Scans prompts inside the browser before they reach ChatGPT, Claude, Gemini or Copilot, with 22 patterns for keys, passwords, card numbers, source code and health data and no network call during the scan |
+| **Dashboard** | Next.js on Supabase with Stripe checkout |
 | **Repository** | [github.com/thecelestialmismatch/VibeFlow](https://github.com/thecelestialmismatch/VibeFlow) |
 
 </details>

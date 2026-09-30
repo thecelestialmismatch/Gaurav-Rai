@@ -1,0 +1,148 @@
+/* Gaurav Rai portfolio. One page, no scripts, no trackers.
+   Palette and type match the LinkedIn banner: teal on a green grey paper, Schibsted Grotesk and IBM Plex. */
+
+@font-face { font-family: "Schibsted Grotesk"; font-weight: 700; font-display: swap; src: url(/fonts/schibsted-grotesk-latin-700-normal.woff2) format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 400; font-display: swap; src: url(/fonts/ibm-plex-sans-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 500; font-display: swap; src: url(/fonts/ibm-plex-sans-latin-500-normal.woff2) format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 600; font-display: swap; src: url(/fonts/ibm-plex-sans-latin-600-normal.woff2) format("woff2"); }
+@font-face { font-family: "IBM Plex Mono"; font-weight: 500; font-display: swap; src: url(/fonts/ibm-plex-mono-latin-500-normal.woff2) format("woff2"); }
+
+:root {
+  --paper: #F2F5F4;
+  --band: #E7EDEA;
+  --card: #FFFFFF;
+  --ink: #15201D;
+  --muted: #4E5D58;
+  --line: #CFD9D5;
+  --teal: #0E6A5B;
+  --teal-soft: #D5E6E1;
+  --on-teal: #FFFFFF;
+  --display: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0E1412;
+    --band: #131B18;
+    --card: #18221F;
+    --ink: #E4EBE8;
+    --muted: #9AA9A3;
+    --line: #2A3531;
+    --teal: #5CC4AD;
+    --teal-soft: #173029;
+    --on-teal: #06201A;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.6 var(--body); }
+a { color: var(--teal); text-underline-offset: 3px; }
+a:focus-visible, .btn:focus-visible { outline: 3px solid var(--teal); outline-offset: 3px; border-radius: 6px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; text-wrap: balance; margin: 0; }
+p { margin: 0; }
+
+.wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding-inline: 20px; }
+.skip { position: absolute; left: -999px; top: 8px; background: var(--ink); color: var(--paper); padding: 8px 14px; border-radius: 6px; z-index: 10; }
+.skip:focus { left: 12px; }
+
+/* Header */
+.top { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 12px; }
+.mark { font: 700 18px/1 var(--display); color: var(--on-teal); background: var(--teal); padding: 9px 10px; border-radius: 8px; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 4px 18px; font-weight: 500; font-size: 15px; }
+nav a { color: var(--ink); text-decoration: none; }
+nav a:hover { color: var(--teal); }
+nav .cv { color: var(--teal); }
+
+/* Hero */
+.hero { padding-block: 72px 56px; display: flex; flex-direction: column; gap: 22px; }
+.eyebrow { font: 500 13px/1.4 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal); }
+.hero h1 { font-size: clamp(34px, 6vw, 60px); max-width: 17ch; }
+.lede { font-size: 19px; color: var(--muted); max-width: 62ch; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-block; padding: 12px 18px; border-radius: 999px; border: 1.5px solid var(--ink); color: var(--ink); font-weight: 600; font-size: 15px; text-decoration: none; }
+.btn:hover { border-color: var(--teal); color: var(--teal); }
+.btn.solid { background: var(--ink); color: var(--paper); }
+.btn.solid:hover { background: var(--teal); border-color: var(--teal); color: var(--on-teal); }
+.stats { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.stats li { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; gap: 6px; }
+.stats strong { font: 700 30px/1 var(--display); color: var(--teal); letter-spacing: -0.02em; }
+.stats span { font-size: 15px; color: var(--muted); line-height: 1.45; }
+
+/* Sections */
+section { scroll-margin-top: 72px; }
+.band { background: var(--band); border-block: 1px solid var(--line); }
+#work, #skills { padding-block: 64px; }
+#experience, .contact { padding-block: 64px; }
+h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 10px; }
+h2.sub { margin-top: 56px; }
+.section-lede { color: var(--muted); margin-bottom: 28px; max-width: 60ch; }
+
+/* Case studies */
+.cases { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.case, .project { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.where { font: 500 12px/1.4 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--teal); }
+.case h3 { font-size: 23px; margin-bottom: 6px; }
+.case h4 { font: 600 13px/1.4 var(--body); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 8px 0 0; }
+.case p { font-size: 16px; }
+.tags { list-style: none; padding: 0; margin: auto 0 0; padding-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; }
+.tags li { font-size: 13px; font-weight: 600; color: var(--teal); background: var(--teal-soft); border-radius: 999px; padding: 4px 10px; }
+
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
+.project.feature { grid-column: 1 / -1; border-left: 4px solid var(--teal); }
+.project h3 { font-size: 22px; }
+.project p { font-size: 16px; }
+.project .when { font: 500 13px/1.4 var(--mono); color: var(--muted); }
+.links { display: flex; flex-wrap: wrap; gap: 8px 18px; font-weight: 600; }
+
+.ai-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
+.ai-item { border-top: 2px solid var(--ink); padding-top: 12px; display: flex; flex-direction: column; gap: 6px; }
+.ai-item h3 { font-size: 19px; }
+.ai-item p { font-size: 16px; color: var(--muted); }
+
+/* Experience */
+.timeline { list-style: none; margin: 24px 0 0; padding: 0; border-left: 2px solid var(--line); }
+.timeline li { position: relative; padding: 0 0 32px 24px; display: flex; flex-direction: column; gap: 4px; }
+.timeline li::before { content: ""; position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--teal); }
+.org { font: 700 21px/1.2 var(--display); }
+.org span, .role span, .edu span { font: 500 14px/1.4 var(--body); color: var(--muted); margin-left: 8px; white-space: nowrap; }
+.org span { font-family: var(--body); }
+.role { font-weight: 600; }
+.timeline li > p:last-child { color: var(--muted); max-width: 70ch; }
+
+/* Skills */
+.skills { margin: 20px 0 0; display: grid; gap: 14px; }
+.skills div { display: grid; grid-template-columns: minmax(0, 200px) minmax(0, 1fr); gap: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.skills dt { font-weight: 600; }
+.skills dd { margin: 0; color: var(--muted); }
+.edu { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px; }
+.edu h3 { font-size: 22px; margin-bottom: 12px; }
+.edu p { margin-bottom: 12px; }
+.edu span { display: inline-block; margin-left: 0; }
+
+/* Contact */
+.contact { display: flex; flex-direction: column; gap: 16px; }
+.contact .big { font: 700 clamp(22px, 4vw, 34px)/1.2 var(--display); overflow-wrap: anywhere; }
+
+.foot { padding-block: 28px 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+
+@media (max-width: 860px) {
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cases, .projects, .ai-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .hero { padding-block: 44px 36px; }
+  .lede { font-size: 17px; }
+  nav { font-size: 14px; gap: 4px 12px; }
+  .skills div { grid-template-columns: 1fr; gap: 4px; }
+  .org span, .role span { display: block; margin-left: 0; }
+  .stats strong { font-size: 22px; }
+  .stats span { font-size: 14px; }
+  .stats li { padding: 14px; }
+}

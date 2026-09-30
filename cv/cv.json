@@ -1,0 +1,163 @@
+{
+  "name": "Gaurav Rai",
+  "headline": "AI, Data and Cloud Analyst and Engineer",
+  "location": "Melbourne, VIC",
+  "email": "gauravraiau@gmail.com",
+  "links": [
+    "linkedin.com/in/gauravraiji",
+    "gauravraiji.vercel.app"
+  ],
+  "summary": "Analyst with more than six years across contact centres, IT support, reporting and cloud. At Bendigo Telco I rebuilt CX reporting in SQL and Power BI and took WhatsApp, Messenger and Instagram on Amazon Connect to production. I led fifteen agents to lift CSAT from 82% to 91% and build daily with Claude Code and Codex. Melbourne based, available now.",
+  "skills": [
+    {
+      "group": "Data and reporting",
+      "items": "SQL, Power BI, Excel, MSPBots, Python, data validation, requirements gathering, CSAT, AHT and SLA reporting"
+    },
+    {
+      "group": "Amazon Connect and AWS",
+      "items": "contact flows, routing profiles, CCP, Lambda, DynamoDB, CloudWatch, CloudTrail, Terraform"
+    },
+    {
+      "group": "AI",
+      "items": "Claude Code, OpenAI Codex, Claude and OpenRouter APIs, MCP, prompt engineering"
+    },
+    {
+      "group": "Tools",
+      "items": "TypeScript, React, Node.js, Docker, PostgreSQL, GitHub Actions, Jira, HaloPSA"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Bendigo Telco",
+      "location": "Bendigo, VIC",
+      "roles": [
+        {
+          "title": "Reporting Analyst, Customer Experience",
+          "dates": "Aug 2025 to Sep 2026",
+          "bullets": [
+            "Rebuilt CX reporting in SQL and Power BI, replacing hand built spreadsheets with weekly CSAT, AHT and SLA dashboards.",
+            "Took WhatsApp, Facebook Messenger and Instagram on Amazon Connect to production on Lambda and DynamoDB.",
+            "Built a React panel in the agent workspace that loads the HaloPSA record on call pop, cutting average handle time 25%.",
+            "Gathered reporting requirements across the business, checked data quality before release and raised data risks.",
+            "Maintained Power BI, Excel and MSPBots dashboards and moved the Amazon Connect configuration into Terraform.",
+            "Rebuilt AWS monitoring after a root account compromise with CloudTrail, CloudWatch and Budgets alerts, and moved all Jira tickets into HaloPSA with no data lost."
+          ]
+        },
+        {
+          "title": "CX Enablement Intern",
+          "dates": "Mar 2025 to Jul 2025",
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "company": "Oceaneering International Services",
+      "location": "Chandigarh, India",
+      "roles": [
+        {
+          "title": "IT Support Analyst, contract",
+          "dates": "Mar 2023 to Jul 2023",
+          "bullets": [
+            "Supported 200+ business users across 24x7 rotating shifts and closed 95% of Level 1 and Level 2 tickets within SLA.",
+            "Built Python and SQL ticket reports that exposed the top five recurring issues, and fixing them cut repeats by 20%."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Future Work Technologies",
+      "location": "Chandigarh, India",
+      "roles": [
+        {
+          "title": "Team Lead",
+          "dates": "Jan 2022 to Jan 2023",
+          "bullets": [
+            "Led fifteen agents across voice, email and chat, lifting CSAT from 82% to 91% in six months with QA scripts and KPIs.",
+            "Found bottlenecks with Excel and SQL reports and reworked scheduling, cutting wait time 20% and resolution time 15%."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "eClerx",
+      "location": "Chandigarh, India",
+      "roles": [
+        {
+          "title": "Senior IT Support Analyst",
+          "dates": "Apr 2021 to Jan 2022",
+          "bullets": [
+            "Managed daily operations and sales targets for eight automotive dealerships with five analysts reporting to me.",
+            "Built a CRM escalation workflow that cut escalations by 25%, and trained 20+ new hires, lifting first contact resolution by 15%."
+          ]
+        },
+        {
+          "title": "IT Support Analyst",
+          "dates": "Aug 2018 to Mar 2021",
+          "bullets": [
+            "Handled 50+ customer enquiries a day at 95% retention and received the Extra Miler award and Employee of the Quarter."
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "HoundShield",
+      "links": [
+        "houndshield.com",
+        "github.com/thecelestialmismatch/HoundShield"
+      ],
+      "dates": "Feb 2026 to present",
+      "bullets": [
+        "A prompt inspection firewall I built solo with Claude Code and Codex. It checks AI prompts for sensitive data on the customer's own hardware, runs 16 detection engines and is covered by 140 test suites."
+      ]
+    },
+    {
+      "name": "RipoDoc",
+      "links": [
+        "ripodoc.com"
+      ],
+      "dates": "Feb 2026 to Aug 2026",
+      "bullets": [
+        "Evidence delivery for MSP client reports. Each figure in the PDF opens only the approved rows behind it, through expiring, revocable links tied to one reader. Next.js, PostgreSQL and Docker."
+      ]
+    },
+    {
+      "name": "VibeFlow",
+      "links": [
+        "github.com/thecelestialmismatch/VibeFlow"
+      ],
+      "dates": "Mar 2026 to May 2026",
+      "bullets": [
+        "A Chrome extension that scans prompts inside the browser with 22 patterns for keys, passwords, card numbers and health data before they reach ChatGPT, Claude or Gemini, with a Next.js, Supabase and Stripe dashboard."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Information Technology, Cloud Analytics",
+      "school": "La Trobe University",
+      "dates": "Jul 2023 to Jul 2025",
+      "bullets": []
+    },
+    {
+      "degree": "Bachelor of Computer Applications",
+      "school": "Punjabi University",
+      "dates": "Jun 2015 to Jun 2018",
+      "bullets": []
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AI Fluency, Framework and Foundations",
+      "issuer": "Anthropic",
+      "date": "Jul 2026"
+    },
+    {
+      "name": "Data Analytics Essentials",
+      "issuer": "Cisco Networking Academy",
+      "date": "Sep 2026"
+    }
+  ],
+  "references": "Available on request."
+}
