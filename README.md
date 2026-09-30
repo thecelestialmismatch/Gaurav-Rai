@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:A855F7&height=220&section=header&text=Gaurav%20Rai&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=AI%20%26%20Data%20Analyst%20%7C%20Amazon%20Connect%20%7C%20Melbourne&descSize=18&descAlignY=60&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:A855F7&height=220&section=header&text=Gaurav%20Rai&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=AI%2C%20Data%20%26%20Cloud%20Analyst%20and%20Engineer%20%7C%20Melbourne&descSize=18&descAlignY=60&animation=fadeIn" alt="header" />
 
 <a href="https://github.com/thecelestialmismatch">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=900&color=8B5CF6&center=true&vCenter=true&width=720&lines=AI+and+data+analyst+in+Melbourne;Amazon+Connect+and+AWS+engineer;Building+HoundShield+with+Claude+Code+and+Codex;Open+to+AI+analyst+and+Amazon+Connect+roles" alt="typing-svg" />
@@ -22,7 +22,7 @@
 <a href="https://www.linkedin.com/in/gauravraiji">
   <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=6366F1&labelColor=0D1117" alt="linkedin" />
 </a>
-<a href="mailto:gauravraiau@gmail.com">
+<a href="mailto:thecelestialmismatch@gmail.com">
   <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A855F7&labelColor=0D1117" alt="email" />
 </a>
 <a href="https://github.com/thecelestialmismatch">
@@ -314,7 +314,7 @@ available: now
 
 <div align="center">
 
-<a href="mailto:gauravraiau@gmail.com">
+<a href="mailto:thecelestialmismatch@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" />
 </a>
 <a href="https://www.linkedin.com/in/gauravraiji">
