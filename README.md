@@ -30,6 +30,15 @@
 </a>
 
 <br/>
+
+<a href="https://gauravraiji.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-gauravraiji.vercel.app-0E6A5B?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" />
+</a>
+<a href="https://github.com/thecelestialmismatch/Gaurav-Rai/raw/main/site/Gaurav_Rai_CV.pdf">
+  <img src="https://img.shields.io/badge/CV-Download_PDF-15201D?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="download CV" />
+</a>
+
+<br/>
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=thecelestialmismatch&label=Profile%20Views&color=8B5CF6&style=for-the-badge" alt="profile-views" />

@@ -1,0 +1,141 @@
+{
+  "name": "Gaurav Rai",
+  "headline": "AI, Data and Cloud Analyst and Engineer",
+  "location": "Melbourne, VIC",
+  "email": "gauravraiau@gmail.com",
+  "links": [
+    "linkedin.com/in/gauravraiji",
+    "gauravraiji.vercel.app"
+  ],
+  "summary": "Analyst with more than six years across contact centres, IT support, reporting and cloud. At Bendigo Telco I rebuilt customer experience reporting in SQL and Power BI and worked on Amazon Connect, where I took WhatsApp, Facebook Messenger and Instagram messaging from pilot to production. Earlier I led a team of fifteen agents and lifted CSAT from 82% to 91% in six months. I use AI tools every day, including Claude Code and Codex. Based in Melbourne and available now.",
+  "skills": [
+    {
+      "group": "Data and reporting",
+      "items": "SQL, Power BI, Excel, MSPBots, Python, data validation, requirements gathering, CSAT, AHT and SLA reporting"
+    },
+    {
+      "group": "Amazon Connect and AWS",
+      "items": "contact flows, routing profiles, Contact Control Panel, WhatsApp and social messaging, Lambda, DynamoDB, CloudWatch, CloudTrail, Terraform"
+    },
+    {
+      "group": "AI",
+      "items": "Claude Code, OpenAI Codex, Claude and OpenRouter APIs, MCP, prompt engineering"
+    },
+    {
+      "group": "Tools",
+      "items": "TypeScript, React, Node.js, Docker, PostgreSQL, GitHub Actions, Jira, HaloPSA"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Bendigo Telco",
+      "location": "Bendigo, VIC",
+      "roles": [
+        {
+          "title": "Reporting Analyst, Customer Experience",
+          "dates": "Aug 2025 to Sep 2026",
+          "bullets": [
+            "Rebuilt customer experience reporting in SQL and Power BI, replacing hand built spreadsheets with weekly CSAT, AHT and SLA dashboards for managers.",
+            "Gathered reporting requirements across the business, checked data quality before every release and raised data risks through the risk framework.",
+            "Maintained dashboards in Power BI, Excel and MSPBots, and supported the Amazon Connect rollout by moving its configuration into Terraform."
+          ]
+        },
+        {
+          "title": "CX Enablement Intern",
+          "dates": "Mar 2025 to Jul 2025",
+          "bullets": [
+            "Connected WhatsApp, Facebook Messenger and Instagram to Amazon Connect from pilot to production, with Node.js Lambda functions and DynamoDB handling real time chat routing.",
+            "Built a React and TypeScript panel in the agent workspace that loads the HaloPSA customer record on call pop, cutting average handle time by 25%.",
+            "Rebuilt AWS monitoring after a root account compromise with CloudTrail, CloudWatch and Budgets alerts, and moved all Jira tickets into HaloPSA with no data lost."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Oceaneering International Services",
+      "location": "Chandigarh, India",
+      "roles": [
+        {
+          "title": "IT Support Analyst, contract",
+          "dates": "Mar 2023 to Jul 2023",
+          "bullets": [
+            "Supported 200+ business users across 24x7 rotating shifts and closed 95% of Level 1 and Level 2 tickets within SLA.",
+            "Built ticket reports in Python and SQL that exposed the top five recurring issues, and fixing them cut repeat incidents by 20%."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Future Work Technologies",
+      "location": "Chandigarh, India",
+      "roles": [
+        {
+          "title": "Team Lead",
+          "dates": "Jan 2022 to Jan 2023",
+          "bullets": [
+            "Led fifteen agents across voice, email and chat, lifting CSAT from 82% to 91% in six months with QA scripts and KPIs.",
+            "Reworked scheduling and used Excel and SQL reports to find bottlenecks, cutting wait time by 20% and resolution time by 15%."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "eClerx",
+      "location": "Chandigarh, India",
+      "roles": [
+        {
+          "title": "Senior IT Support Analyst",
+          "dates": "Apr 2021 to Jan 2022",
+          "bullets": [
+            "Managed daily operations and sales targets for eight automotive dealerships with five analysts reporting to me.",
+            "Built a CRM escalation workflow that cut escalations by 25%, and trained 20+ new hires, lifting first contact resolution by 15%."
+          ]
+        },
+        {
+          "title": "IT Support Analyst",
+          "dates": "Aug 2018 to Mar 2021",
+          "bullets": [
+            "Handled 50+ customer enquiries a day at 95% retention and received the Extra Miler award and Employee of the Quarter."
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "HoundShield",
+      "link": "houndshield.com",
+      "dates": "Feb 2026 to present",
+      "bullets": [
+        "A prompt inspection firewall I built solo with Claude Code and Codex. It checks AI prompts for sensitive data on the customer's own hardware, runs 16 detection engines and is covered by 140 test suites."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Information Technology, Cloud Analytics",
+      "school": "La Trobe University",
+      "dates": "Jul 2023 to Jul 2025",
+      "bullets": []
+    },
+    {
+      "degree": "Bachelor of Computer Applications",
+      "school": "Punjabi University",
+      "dates": "Jun 2015 to Jun 2018",
+      "bullets": []
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AI Fluency, Framework and Foundations",
+      "issuer": "Anthropic",
+      "date": "Jul 2026"
+    },
+    {
+      "name": "Data Analytics Essentials",
+      "issuer": "Cisco Networking Academy",
+      "date": "Sep 2026"
+    }
+  ],
+  "references": "Available on request."
+}

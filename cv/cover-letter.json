@@ -1,0 +1,11 @@
+{
+  "greeting": "Dear Hiring Manager,",
+  "paragraphs": [
+    "I'm applying for the [Role] position at [Company]. I'm a data and reporting analyst in Melbourne with more than six years across contact centres, IT support and cloud, and I can start now.",
+    "At Bendigo Telco I worked in the Customer Experience team, first as a CX Enablement Intern and then as Reporting Analyst. I rebuilt the reporting cycle in SQL and Power BI so managers had weekly CSAT, AHT and SLA numbers without anyone assembling spreadsheets by hand. I gathered requirements from teams across the business, checked data quality before reports went out and raised data risks through the risk framework. On the Amazon Connect side I took WhatsApp, Facebook Messenger and Instagram messaging from pilot to production, and built a panel in the agent workspace that loads the customer record on call pop, which cut average handle time by 25%.",
+    "Before that I spent close to five years in contact centres and IT support. As Team Lead at Future Work Technologies I led fifteen agents and lifted CSAT from 82% to 91% in six months. That time on the floor is why I build reports and tools around what agents and managers need from them.",
+    "I also build software on my own with Claude Code and Codex, including HoundShield, a prompt inspection firewall with 140 test suites. I hold a Master of Information Technology in Cloud Analytics from La Trobe University.",
+    "I'd welcome the chance to talk about the role. My CV is attached and my portfolio is at gauravraiji.vercel.app."
+  ],
+  "closing": "Kind regards,"
+}

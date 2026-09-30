@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaurav Rai | AI, Data and Cloud Analyst in Melbourne</title>
+<meta name="description" content="Gaurav Rai is an AI, data and cloud analyst and engineer in Melbourne. Amazon Connect, AWS, SQL and Power BI. Available now for analyst and Amazon Connect roles.">
+<meta name="author" content="Gaurav Rai">
+<link rel="canonical" href="https://gauravraiji.vercel.app/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Gaurav Rai | AI, Data and Cloud Analyst">
+<meta property="og:description" content="Amazon Connect, AWS, SQL and Power BI. Based in Melbourne and available now.">
+<meta property="og:url" content="https://gauravraiji.vercel.app/">
+<meta property="og:image" content="https://gauravraiji.vercel.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E6A5B">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/schibsted-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gaurav Rai",
+  "jobTitle": "AI, Data and Cloud Analyst and Engineer",
+  "email": "mailto:gauravraiau@gmail.com",
+  "url": "https://gauravraiji.vercel.app/",
+  "address": { "@type": "PostalAddress", "addressLocality": "Melbourne", "addressRegion": "VIC", "addressCountry": "AU" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "La Trobe University" },
+    { "@type": "CollegeOrUniversity", "name": "Punjabi University" }
+  ],
+  "knowsAbout": ["Amazon Connect", "AWS", "SQL", "Power BI", "Terraform", "Data analysis", "Claude Code", "OpenAI Codex"],
+  "sameAs": ["https://www.linkedin.com/in/gauravraiji", "https://github.com/thecelestialmismatch"]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="mark" href="#main" aria-label="Gaurav Rai, back to top">GR</a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a class="cv" href="/Gaurav_Rai_CV.pdf" download>CV</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero wrap" aria-labelledby="hero-title">
+  <p class="eyebrow">AI, data and cloud analyst and engineer · Melbourne</p>
+  <h1 id="hero-title">I build contact centres that answer faster, and the reporting that shows it.</h1>
+  <p class="lede">I'm Gaurav Rai. I spent eighteen months at Bendigo Telco working on Amazon Connect and customer experience reporting, after close to five years in contact centres and IT support. I'm available now for AI analyst, data analyst, reporting analyst, business analyst and Amazon Connect roles in Melbourne.</p>
+  <div class="actions">
+    <a class="btn solid" href="mailto:gauravraiau@gmail.com">Email me</a>
+    <a class="btn" href="/Gaurav_Rai_CV.pdf" download>Download CV</a>
+    <a class="btn" href="https://www.linkedin.com/in/gauravraiji" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/thecelestialmismatch" rel="noopener">GitHub</a>
+  </div>
+  <ul class="stats" aria-label="Results">
+    <li><strong>25%</strong><span>lower average handle time after putting the customer record on screen at call pop</span></li>
+    <li><strong>82% to 91%</strong><span>CSAT in six months with a team of fifteen agents</span></li>
+    <li><strong>3 channels</strong><span>WhatsApp, Messenger and Instagram answered inside Amazon Connect</span></li>
+    <li><strong>6+ years</strong><span>across contact centres, IT support, reporting and cloud</span></li>
+  </ul>
+</section>
+
+<section id="work" class="band" aria-labelledby="work-title">
+  <div class="wrap">
+    <h2 id="work-title">Selected work</h2>
+    <p class="section-lede">Each of these started with a problem someone in the contact centre could feel every day.</p>
+    <div class="cases">
+
+      <article class="case">
+        <p class="where">Bendigo Telco · Amazon Connect</p>
+        <h3>WhatsApp, Messenger and Instagram inside Amazon Connect</h3>
+        <h4>The problem</h4>
+        <p>Messages from Facebook and Instagram sat in a separate inbox that nobody watched, while agents worked the phones in Amazon Connect.</p>
+        <h4>What I built</h4>
+        <p>I piloted a fix and took it to production. Node.js Lambda functions route each chat in real time, with DynamoDB lookups along the way, and Amazon Connect sends the conversation through its normal queues and routing profiles.</p>
+        <h4>What changed</h4>
+        <p>WhatsApp, Facebook Messenger and Instagram now land in the same agent workspace as voice calls. Agents answer every channel from one screen.</p>
+        <ul class="tags" aria-label="Tools"><li>Amazon Connect</li><li>AWS Lambda</li><li>Node.js</li><li>DynamoDB</li></ul>
+      </article>
+
+      <article class="case">
+        <p class="where">Bendigo Telco · Agent workspace</p>
+        <h3>The customer record on screen when the call arrives</h3>
+        <h4>The problem</h4>
+        <p>Agents looked every caller up by hand in HaloPSA while the customer waited on the line.</p>
+        <h4>What I built</h4>
+        <p>A React and TypeScript panel inside the Amazon Connect agent workspace that fetches the HaloPSA record the moment a call arrives.</p>
+        <h4>What changed</h4>
+        <p>Agents stopped searching by hand, and average handle time dropped 25%.</p>
+        <ul class="tags" aria-label="Tools"><li>React</li><li>TypeScript</li><li>Connect Streams API</li><li>HaloPSA</li></ul>
+      </article>
+
+      <article class="case">
+        <p class="where">Bendigo Telco · Customer Experience</p>
+        <h3>Reporting that runs itself</h3>
+        <h4>The problem</h4>
+        <p>Managers relied on spreadsheets built by hand, so the numbers arrived late and were hard to trust.</p>
+        <h4>What I built</h4>
+        <p>I rebuilt the reporting cycle in SQL and Power BI, kept dashboards in Power BI, Excel and MSPBots, and checked data quality before anything went out.</p>
+        <h4>What changed</h4>
+        <p>Managers got weekly CSAT, AHT and SLA numbers without anyone assembling them, and data risks went through the company risk framework.</p>
+        <ul class="tags" aria-label="Tools"><li>SQL</li><li>Power BI</li><li>MSPBots</li><li>Excel</li></ul>
+      </article>
+
+      <article class="case">
+        <p class="where">Bendigo Telco · AWS</p>
+        <h3>Monitoring rebuilt after a root account compromise</h3>
+        <h4>The problem</h4>
+        <p>A root account was compromised and nothing raised the alarm.</p>
+        <h4>What I built</h4>
+        <p>CloudTrail anomaly detection, CloudWatch alarms and Budgets alerts. I also helped move the Amazon Connect setup out of the console and into Terraform modules for instances, queues, contact flows and routing profiles.</p>
+        <h4>What changed</h4>
+        <p>The next incident gets caught instead of going quiet, and every change to the contact centre can be reviewed before it goes live.</p>
+        <ul class="tags" aria-label="Tools"><li>CloudTrail</li><li>CloudWatch</li><li>AWS Budgets</li><li>Terraform</li></ul>
+      </article>
+
+    </div>
+
+    <h2 class="sub" id="projects-title">Things I build on my own</h2>
+    <div class="projects">
+      <article class="project feature">
+        <h3>HoundShield</h3>
+        <p>A prompt inspection firewall that checks AI prompts for patient data, controlled information, personal data and secrets on the customer's own hardware, before they reach ChatGPT, Copilot or Claude.</p>
+        <p>I built it solo with Claude Code and Codex. It has 16 detection engines, 35 scanner patterns, a hash chained audit log and 140 test suites, and it exports PDF evidence mapped to the NIST controls behind CMMC Level 2. It supports an assessment and does not replace one.</p>
+        <p class="links"><a href="https://houndshield.com" rel="noopener">houndshield.com</a> <a href="https://github.com/thecelestialmismatch/HoundShield" rel="noopener">Source on GitHub</a></p>
+      </article>
+      <article class="project">
+        <h3>RipoDoc</h3>
+        <p>Client reporting for managed service providers. Every figure in a delivered PDF links to the rows behind it, and every view is logged.</p>
+        <p class="links"><a href="https://ripodoc.com" rel="noopener">ripodoc.com</a></p>
+      </article>
+      <article class="project">
+        <h3>VibeFlow</h3>
+        <p>A multi agent pipeline that moves work through research, generation and delivery with handovers and recovery, then renders personalised video pitches with Remotion.</p>
+        <p class="links"><a href="https://github.com/thecelestialmismatch/VibeFlow" rel="noopener">Source on GitHub</a></p>
+      </article>
+    </div>
+
+    <h2 class="sub" id="ai-title">How I work with AI</h2>
+    <div class="ai-grid">
+      <article class="ai-item"><h3>Claude Code and Codex</h3><p>My coding agents. HoundShield keeps their project rules in CLAUDE.md and AGENTS.md so both work to the same standard.</p></article>
+      <article class="ai-item"><h3>Claude and OpenRouter APIs</h3><p>They run the language model features inside the products I ship.</p></article>
+      <article class="ai-item"><h3>MCP</h3><p>Connects agents to real tools and data instead of copy and paste.</p></article>
+      <article class="ai-item"><h3>Multi agent pipelines</h3><p>VibeFlow splits work into stages that hand over cleanly and recover when one fails.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="wrap" aria-labelledby="experience-title">
+  <h2 id="experience-title">Experience</h2>
+  <ol class="timeline">
+    <li>
+      <p class="org">Bendigo Telco <span>Bendigo, VIC</span></p>
+      <p class="role">Reporting Analyst, Customer Experience <span>Aug 2025 to Sep 2026</span></p>
+      <p class="role">CX Enablement Intern <span>Mar 2025 to Jul 2025</span></p>
+      <p>Customer experience reporting in SQL, Power BI and MSPBots, and the Amazon Connect contact centre, from messaging channels to the agent workspace and Terraform.</p>
+    </li>
+    <li>
+      <p class="org">Oceaneering International Services <span>Chandigarh, India</span></p>
+      <p class="role">IT Support Analyst, contract <span>Mar 2023 to Jul 2023</span></p>
+      <p>Level 1 and Level 2 support for 200+ business users across 24x7 rotating shifts, with 95% of tickets closed inside SLA and ticket reporting in Python and SQL.</p>
+    </li>
+    <li>
+      <p class="org">Future Work Technologies <span>Chandigarh, India</span></p>
+      <p class="role">Team Lead <span>Jan 2022 to Jan 2023</span></p>
+      <p>Led fifteen agents across voice, email and chat. QA scripts and agent level KPIs took CSAT from 82% to 91% in six months.</p>
+    </li>
+    <li>
+      <p class="org">eClerx <span>Chandigarh, India</span></p>
+      <p class="role">Senior IT Support Analyst <span>Apr 2021 to Jan 2022</span></p>
+      <p class="role">IT Support Analyst <span>Aug 2018 to Mar 2021</span></p>
+      <p>Ran operations and sales targets for eight automotive dealerships with five analysts reporting to me. Extra Miler award and Employee of the Quarter.</p>
+    </li>
+  </ol>
+</section>
+
+<section id="skills" class="band" aria-labelledby="skills-title">
+  <div class="wrap">
+    <h2 id="skills-title">Skills</h2>
+    <dl class="skills">
+      <div><dt>Data and reporting</dt><dd>SQL, Power BI, MSPBots, Excel, Python, data validation, dashboard design, requirements gathering, CSAT, AHT, FCR and SLA reporting</dd></div>
+      <div><dt>Amazon Connect</dt><dd>Contact flows, queues, routing profiles, Contact Control Panel, Streams API, WhatsApp, Facebook Messenger and Instagram messaging, CRM integration</dd></div>
+      <div><dt>AWS</dt><dd>Lambda, DynamoDB, API Gateway, CloudWatch, CloudTrail, IAM, Budgets, CloudFormation, Terraform, serverless design</dd></div>
+      <div><dt>AI</dt><dd>Claude, Claude Code, OpenAI Codex, OpenRouter, MCP, prompt engineering, LLM applications, multi agent workflows</dd></div>
+      <div><dt>Engineering</dt><dd>TypeScript, Node.js, React, Next.js, Docker, PostgreSQL, Supabase, REST APIs, GitHub Actions, Jenkins, Jira, HaloPSA</dd></div>
+    </dl>
+    <div class="edu">
+      <div>
+        <h3>Education</h3>
+        <p><strong>Master of Information Technology, Cloud Analytics</strong><br>La Trobe University, Bendigo <span>Jul 2023 to Jul 2025</span></p>
+        <p><strong>Bachelor of Computer Applications</strong><br>Punjabi University, Patiala <span>Jun 2015 to Jun 2018</span></p>
+      </div>
+      <div>
+        <h3>Certifications</h3>
+        <p><strong>AI Fluency, Framework and Foundations</strong><br>Anthropic <span>Jul 2026</span></p>
+        <p><strong>Data Analytics Essentials</strong><br>Cisco Networking Academy <span>Sep 2026</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="wrap contact" aria-labelledby="contact-title">
+  <h2 id="contact-title">Let's talk</h2>
+  <p>I'm based in Melbourne, happy to be on site, and available now. Email is the quickest way to reach me.</p>
+  <p class="big"><a href="mailto:gauravraiau@gmail.com">gauravraiau@gmail.com</a></p>
+  <div class="actions">
+    <a class="btn solid" href="/Gaurav_Rai_CV.pdf" download>Download CV</a>
+    <a class="btn" href="https://www.linkedin.com/in/gauravraiji" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/thecelestialmismatch" rel="noopener">GitHub</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap foot">
+  <p>© 2026 Gaurav Rai. No trackers, no cookies.</p>
+</footer>
+</body>
+</html>
