@@ -101,7 +101,11 @@ function cvDocx() {
     ]),
     heading('Projects'),
     ...cv.projects.flatMap((p) => [
-      line([new TextRun({ text: p.name, bold: true }), new TextRun(` | ${p.link} | ${p.dates}`)], { before: 40, after: 20 }, true),
+      line([
+        new TextRun({ text: p.name, bold: true }),
+        ...p.links.flatMap((l) => [new TextRun(' | '), new ExternalHyperlink({ link: href(l), children: [new TextRun({ text: l, color: '1F4E79' })] })]),
+        new TextRun(` | ${p.dates}`),
+      ], { before: 40, after: 20 }, true),
       ...p.bullets.map(bullet),
     ]),
     heading('Education'),
@@ -160,7 +164,7 @@ function cvHtml() {
 <h2>Skills</h2>${cv.skills.map((s) => `<p><b>${esc(s.group)}</b> | ${esc(s.items)}</p>`).join('')}
 <h2>Experience</h2>${cv.experience.map((j) => j.roles.map((r, i) => `<div class="blk">${
   i === 0 ? `<p class="company"><b>${esc(j.company)}</b> | ${esc(j.location)}</p>` : ''}<p>${esc(r.title)} | ${esc(r.dates)}</p>${bullets(r.bullets)}</div>`).join('')).join('')}
-<h2>Projects</h2>${cv.projects.map((p) => `<div class="blk"><p><b>${esc(p.name)}</b> | <a href="${href(p.link)}">${esc(p.link)}</a> | ${esc(p.dates)}</p>${bullets(p.bullets)}</div>`).join('')}
+<h2>Projects</h2>${cv.projects.map((p) => `<div class="blk"><p><b>${esc(p.name)}</b> | ${p.links.map((l) => `<a href="${href(l)}">${esc(l)}</a>`).join(' | ')} | ${esc(p.dates)}</p>${bullets(p.bullets)}</div>`).join('')}
 <h2>Education</h2>${cv.education.map((e) => `<p><b>${esc(e.degree)}</b> | ${esc(e.school)} | ${esc(e.dates)}</p>`).join('')}
 <h2>Certifications</h2><p>${cv.certifications.map((c) => esc(`${c.name}, ${c.issuer}, ${c.date}`)).join(' | ')}</p>
 <h2>References</h2><p>${esc(cv.references)}</p>

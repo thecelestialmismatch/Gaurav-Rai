@@ -7,7 +7,7 @@
     "linkedin.com/in/gauravraiji",
     "gauravraiji.vercel.app"
   ],
-  "summary": "Analyst with more than six years across contact centres, IT support, reporting and cloud. At Bendigo Telco I rebuilt customer experience reporting in SQL and Power BI and worked on Amazon Connect, where I took WhatsApp, Facebook Messenger and Instagram messaging from pilot to production. Earlier I led a team of fifteen agents and lifted CSAT from 82% to 91% in six months. I use AI tools every day, including Claude Code and Codex. Based in Melbourne and available now.",
+  "summary": "Analyst with more than six years across contact centres, IT support, reporting and cloud. At Bendigo Telco I rebuilt CX reporting in SQL and Power BI and took WhatsApp, Messenger and Instagram on Amazon Connect to production. I led fifteen agents to lift CSAT from 82% to 91% and build daily with Claude Code and Codex. Melbourne based, available now.",
   "skills": [
     {
       "group": "Data and reporting",
@@ -15,7 +15,7 @@
     },
     {
       "group": "Amazon Connect and AWS",
-      "items": "contact flows, routing profiles, Contact Control Panel, WhatsApp and social messaging, Lambda, DynamoDB, CloudWatch, CloudTrail, Terraform"
+      "items": "contact flows, routing profiles, CCP, omnichannel chat, Lambda, DynamoDB, CloudWatch, CloudTrail, Terraform"
     },
     {
       "group": "AI",
@@ -35,9 +35,9 @@
           "title": "Reporting Analyst, Customer Experience",
           "dates": "Aug 2025 to Sep 2026",
           "bullets": [
-            "Rebuilt customer experience reporting in SQL and Power BI, replacing hand built spreadsheets with weekly CSAT, AHT and SLA dashboards for managers.",
-            "Gathered reporting requirements across the business, checked data quality before every release and raised data risks through the risk framework.",
-            "Maintained dashboards in Power BI, Excel and MSPBots, and supported the Amazon Connect rollout by moving its configuration into Terraform."
+            "Rebuilt CX reporting in SQL and Power BI, replacing hand built spreadsheets with weekly CSAT, AHT and SLA dashboards.",
+            "Gathered reporting requirements across the business, checked data quality before release and raised data risks.",
+            "Maintained Power BI, Excel and MSPBots dashboards and moved the Amazon Connect configuration into Terraform."
           ]
         },
         {
@@ -45,7 +45,7 @@
           "dates": "Mar 2025 to Jul 2025",
           "bullets": [
             "Connected WhatsApp, Facebook Messenger and Instagram to Amazon Connect from pilot to production, with Node.js Lambda functions and DynamoDB handling real time chat routing.",
-            "Built a React and TypeScript panel in the agent workspace that loads the HaloPSA customer record on call pop, cutting average handle time by 25%.",
+            "Built a React panel in the agent workspace that loads the HaloPSA record on call pop, cutting average handle time 25%.",
             "Rebuilt AWS monitoring after a root account compromise with CloudTrail, CloudWatch and Budgets alerts, and moved all Jira tickets into HaloPSA with no data lost."
           ]
         }
@@ -60,7 +60,7 @@
           "dates": "Mar 2023 to Jul 2023",
           "bullets": [
             "Supported 200+ business users across 24x7 rotating shifts and closed 95% of Level 1 and Level 2 tickets within SLA.",
-            "Built ticket reports in Python and SQL that exposed the top five recurring issues, and fixing them cut repeat incidents by 20%."
+            "Built Python and SQL ticket reports that exposed the top five recurring issues, and fixing them cut repeats by 20%."
           ]
         }
       ]
@@ -74,7 +74,7 @@
           "dates": "Jan 2022 to Jan 2023",
           "bullets": [
             "Led fifteen agents across voice, email and chat, lifting CSAT from 82% to 91% in six months with QA scripts and KPIs.",
-            "Reworked scheduling and used Excel and SQL reports to find bottlenecks, cutting wait time by 20% and resolution time by 15%."
+            "Found bottlenecks with Excel and SQL reports and reworked scheduling, cutting wait time 20% and resolution time 15%."
           ]
         }
       ]
@@ -104,10 +104,33 @@
   "projects": [
     {
       "name": "HoundShield",
-      "link": "houndshield.com",
+      "links": [
+        "houndshield.com",
+        "github.com/thecelestialmismatch/HoundShield"
+      ],
       "dates": "Feb 2026 to present",
       "bullets": [
         "A prompt inspection firewall I built solo with Claude Code and Codex. It checks AI prompts for sensitive data on the customer's own hardware, runs 16 detection engines and is covered by 140 test suites."
+      ]
+    },
+    {
+      "name": "RipoDoc",
+      "links": [
+        "ripodoc.com"
+      ],
+      "dates": "Feb 2026 to Aug 2026",
+      "bullets": [
+        "Evidence delivery for MSP client reports. Each figure in the PDF opens only the approved rows behind it, through expiring, revocable links tied to one reader. Next.js, PostgreSQL and Docker."
+      ]
+    },
+    {
+      "name": "VibeFlow",
+      "links": [
+        "github.com/thecelestialmismatch/VibeFlow"
+      ],
+      "dates": "Mar 2026 to May 2026",
+      "bullets": [
+        "A Chrome extension that scans prompts inside the browser with 22 patterns for keys, passwords, card numbers and health data before they reach ChatGPT, Claude or Gemini, with a Next.js, Supabase and Stripe dashboard."
       ]
     }
   ],

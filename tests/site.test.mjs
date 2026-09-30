@@ -89,6 +89,20 @@ test('experience on the site matches the CV', () => {
   }
 });
 
+test('every CV project is on the site with the same dates and links', () => {
+  for (const p of cv.projects) {
+    assert.ok(index.includes(`<h3>${p.name}</h3>`), p.name);
+    assert.match(index, new RegExp(`<p class="when">${p.dates} · `), `${p.name} dates`);
+    for (const link of p.links) assert.ok(index.includes(`href="https://${link}"`), `${p.name} ${link}`);
+  }
+});
+
+test('project links point at my own repositories and sites', () => {
+  for (const link of cv.projects.flatMap((p) => p.links)) {
+    assert.match(link, /^(github\.com\/thecelestialmismatch\/[A-Za-z]+|[a-z]+\.com)$/, link);
+  }
+});
+
 test('the CV download is there and linked', () => {
   assert.ok(existsSync(new URL('Gaurav_Rai_CV.pdf', site)));
   assert.match(index, /href="\/Gaurav_Rai_CV\.pdf" download/);

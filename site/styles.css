@@ -97,6 +97,7 @@ h2.sub { margin-top: 56px; }
 .project.feature { grid-column: 1 / -1; border-left: 4px solid var(--teal); }
 .project h3 { font-size: 22px; }
 .project p { font-size: 16px; }
+.project .when { font: 500 13px/1.4 var(--mono); color: var(--muted); }
 .links { display: flex; flex-wrap: wrap; gap: 8px 18px; font-weight: 600; }
 
 .ai-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }

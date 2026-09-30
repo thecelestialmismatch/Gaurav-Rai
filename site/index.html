@@ -134,18 +134,23 @@
     <div class="projects">
       <article class="project feature">
         <h3>HoundShield</h3>
+        <p class="when">Feb 2026 to present · TypeScript, Next.js, Node.js, Docker</p>
         <p>A prompt inspection firewall that checks AI prompts for patient data, controlled information, personal data and secrets on the customer's own hardware, before they reach ChatGPT, Copilot or Claude.</p>
         <p>I built it solo with Claude Code and Codex. It has 16 detection engines, 35 scanner patterns, a hash chained audit log and 140 test suites, and it exports PDF evidence mapped to the NIST controls behind CMMC Level 2. It supports an assessment and does not replace one.</p>
         <p class="links"><a href="https://houndshield.com" rel="noopener">houndshield.com</a> <a href="https://github.com/thecelestialmismatch/HoundShield" rel="noopener">Source on GitHub</a></p>
       </article>
       <article class="project">
         <h3>RipoDoc</h3>
-        <p>Client reporting for managed service providers. Every figure in a delivered PDF links to the rows behind it, and every view is logged.</p>
+        <p class="when">Feb 2026 to Aug 2026 · TypeScript, Next.js, PostgreSQL, Docker</p>
+        <p>Evidence delivery for managed service provider reports. The client keeps the PDF they already trust, and each figure in it opens only the approved rows behind it.</p>
+        <p>Links are tied to one reader, expire and can be revoked. Every view is written to a SHA 256 hash chain that can be checked offline, and a CI audit fails the build if the app would send report data to an outside service. The source is private.</p>
         <p class="links"><a href="https://ripodoc.com" rel="noopener">ripodoc.com</a></p>
       </article>
       <article class="project">
         <h3>VibeFlow</h3>
-        <p>A multi agent pipeline that moves work through research, generation and delivery with handovers and recovery, then renders personalised video pitches with Remotion.</p>
+        <p class="when">Mar 2026 to May 2026 · TypeScript, Next.js, Supabase, Stripe</p>
+        <p>A Chrome extension that scans prompts inside the browser before they reach ChatGPT, Claude, Gemini or Copilot. Its 22 patterns catch keys, passwords, card numbers, source code and health data, with no network call during the scan.</p>
+        <p>It comes with a Next.js dashboard on Supabase with Stripe checkout.</p>
         <p class="links"><a href="https://github.com/thecelestialmismatch/VibeFlow" rel="noopener">Source on GitHub</a></p>
       </article>
     </div>
@@ -155,7 +160,7 @@
       <article class="ai-item"><h3>Claude Code and Codex</h3><p>My coding agents. HoundShield keeps their project rules in CLAUDE.md and AGENTS.md so both work to the same standard.</p></article>
       <article class="ai-item"><h3>Claude and OpenRouter APIs</h3><p>They run the language model features inside the products I ship.</p></article>
       <article class="ai-item"><h3>MCP</h3><p>Connects agents to real tools and data instead of copy and paste.</p></article>
-      <article class="ai-item"><h3>Multi agent pipelines</h3><p>VibeFlow splits work into stages that hand over cleanly and recover when one fails.</p></article>
+      <article class="ai-item"><h3>Checks before trust</h3><p>Agent written code only merges after tests pass. RipoDoc also runs an audit on every relevant change that fails if data would leave the app.</p></article>
     </div>
   </div>
 </section>
@@ -195,7 +200,7 @@
       <div><dt>Data and reporting</dt><dd>SQL, Power BI, MSPBots, Excel, Python, data validation, dashboard design, requirements gathering, CSAT, AHT, FCR and SLA reporting</dd></div>
       <div><dt>Amazon Connect</dt><dd>Contact flows, queues, routing profiles, Contact Control Panel, Streams API, WhatsApp, Facebook Messenger and Instagram messaging, CRM integration</dd></div>
       <div><dt>AWS</dt><dd>Lambda, DynamoDB, API Gateway, CloudWatch, CloudTrail, IAM, Budgets, CloudFormation, Terraform, serverless design</dd></div>
-      <div><dt>AI</dt><dd>Claude, Claude Code, OpenAI Codex, OpenRouter, MCP, prompt engineering, LLM applications, multi agent workflows</dd></div>
+      <div><dt>AI</dt><dd>Claude, Claude Code, OpenAI Codex, OpenRouter, MCP, prompt engineering, LLM applications, agentic coding workflows</dd></div>
       <div><dt>Engineering</dt><dd>TypeScript, Node.js, React, Next.js, Docker, PostgreSQL, Supabase, REST APIs, GitHub Actions, Jenkins, Jira, HaloPSA</dd></div>
     </dl>
     <div class="edu">
