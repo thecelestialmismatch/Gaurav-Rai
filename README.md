@@ -22,7 +22,7 @@
 <a href="https://www.linkedin.com/in/gauravraiji">
   <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=6366F1&labelColor=0D1117" alt="linkedin" />
 </a>
-<a href="mailto:thecelestialmismatch@gmail.com">
+<a href="mailto:gauravraiau@gmail.com">
   <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A855F7&labelColor=0D1117" alt="email" />
 </a>
 <a href="https://github.com/thecelestialmismatch">
@@ -314,7 +314,7 @@ available: now
 
 <div align="center">
 
-<a href="mailto:thecelestialmismatch@gmail.com">
+<a href="mailto:gauravraiau@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" />
 </a>
 <a href="https://www.linkedin.com/in/gauravraiji">
