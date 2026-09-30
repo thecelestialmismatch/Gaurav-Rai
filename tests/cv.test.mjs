@@ -25,8 +25,16 @@ test('the public CV data holds no phone number', () => {
 });
 
 test('no public text file holds a real mobile number', () => {
-  for (const file of ['../README.md', '../docs/PORTFOLIO.md', '../site/index.html', '../site/404.html']) {
+  for (const file of ['../README.md', '../docs/PORTFOLIO.md', '../site/index.html', '../site/404.html', '../cv/referees.example.json']) {
     assert.doesNotMatch(readFileSync(new URL(file, import.meta.url), 'utf8'), MOBILE, file);
+  }
+});
+
+test('referee details stay out of the public repo', () => {
+  const ignored = readFileSync(new URL('../.gitignore', import.meta.url), 'utf8').split('\n');
+  assert.ok(ignored.includes('cv/referees.private.json'));
+  for (const r of JSON.parse(readFileSync(new URL('../cv/referees.example.json', import.meta.url), 'utf8'))) {
+    assert.match(r.email, /@example\.com$/, 'the example uses placeholder addresses only');
   }
 });
 

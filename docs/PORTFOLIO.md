@@ -44,6 +44,12 @@ That writes public copies, with no phone number, to `dist/`. For the copies you 
 CV_PHONE="+61 4XX XXX XXX" npm run build:cv -- --out ~/Documents/CV
 ```
 
+Referees work the same way. Copy `cv/referees.example.json` to `cv/referees.private.json`, fill in each referee, and pass it at build time. Git ignores that file, so your referees' names, phone numbers and emails never reach this public repo. Without it the CV says "Available on request". Ask each referee before you list them.
+
+```sh
+CV_PHONE="+61 4XX XXX XXX" CV_REFEREES=cv/referees.private.json npm run build:cv -- --out ~/Documents/CV
+```
+
 After changing `cv/cv.json`, refresh the public PDF on the site:
 
 ```sh

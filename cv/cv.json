@@ -15,7 +15,7 @@
     },
     {
       "group": "Amazon Connect and AWS",
-      "items": "contact flows, routing profiles, CCP, omnichannel chat, Lambda, DynamoDB, CloudWatch, CloudTrail, Terraform"
+      "items": "contact flows, routing profiles, CCP, Lambda, DynamoDB, CloudWatch, CloudTrail, Terraform"
     },
     {
       "group": "AI",
@@ -36,7 +36,7 @@
           "dates": "Aug 2025 to Sep 2026",
           "bullets": [
             "Rebuilt CX reporting in SQL and Power BI, replacing hand built spreadsheets with weekly CSAT, AHT and SLA dashboards.",
-            "Connected WhatsApp, Facebook Messenger and Instagram to Amazon Connect from pilot to production, with Node.js Lambda functions and DynamoDB handling real time chat routing.",
+            "Took WhatsApp, Facebook Messenger and Instagram on Amazon Connect to production on Lambda and DynamoDB.",
             "Built a React panel in the agent workspace that loads the HaloPSA record on call pop, cutting average handle time 25%.",
             "Gathered reporting requirements across the business, checked data quality before release and raised data risks.",
             "Maintained Power BI, Excel and MSPBots dashboards and moved the Amazon Connect configuration into Terraform.",

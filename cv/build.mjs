@@ -3,6 +3,10 @@
 //   npm run build:cv                                  public copies, no phone number, written to dist/
 //   npm run build:cv -- --out site --only cv-pdf      public CV PDF for the portfolio
 //   CV_PHONE="+61 ..." npm run build:cv -- --out ~/cv private copies with the phone number
+//   CV_REFEREES=cv/referees.private.json ...          private copies with named referees
+//
+// Referee names and contact details are other people's personal data. They live only in
+// cv/referees.private.json, which git ignores, and are used only when asked for explicitly.
 //
 // Sources are cv/cv.json and cv/cover-letter.json. The layout is one column of plain text,
 // so applicant tracking systems read it cleanly. The CV build fails if it runs past one page.
@@ -25,6 +29,16 @@ const argValue = (flag) => {
 };
 const outDir = resolve(argValue('--out') ?? resolve(root, 'dist'));
 const phone = argValue('--phone') ?? process.env.CV_PHONE ?? '';
+const refereesPath = argValue('--referees') ?? process.env.CV_REFEREES;
+const referees = refereesPath ? JSON.parse(readFileSync(resolve(refereesPath), 'utf8')) : [];
+for (const r of referees) {
+  for (const field of ['name', 'title', 'company']) {
+    if (!r[field]) throw new Error(`Referee ${r.name ?? '?'} is missing ${field}`);
+  }
+  if (!r.phone && !r.email) throw new Error(`Referee ${r.name} needs a phone number or an email address`);
+}
+// One line per referee, so two referees still fit on one page. The title and company say how they know me.
+const refereeLine = (r) => [`${r.name}, ${r.title}, ${r.company}`, r.phone, r.email].filter(Boolean).join(' | ');
 const only = (argValue('--only') ?? 'cv-docx,cv-pdf,letter-docx,letter-pdf').split(',');
 const MAX_CV_PAGES = Number(argValue('--max-pages') ?? 1);
 mkdirSync(outDir, { recursive: true });
@@ -113,7 +127,9 @@ function cvDocx() {
     heading('Certifications'),
     line([new TextRun(cv.certifications.map((c) => `${c.name}, ${c.issuer}, ${c.date}`).join(' | '))]),
     heading('References'),
-    line([new TextRun(cv.references)]),
+    ...(referees.length
+      ? referees.map((r) => line([new TextRun(refereeLine(r))]))
+      : [line([new TextRun(cv.references)])]),
   ]);
 }
 
@@ -167,7 +183,7 @@ function cvHtml() {
 <h2>Projects</h2>${cv.projects.map((p) => `<div class="blk"><p><b>${esc(p.name)}</b> | ${p.links.map((l) => `<a href="${href(l)}">${esc(l)}</a>`).join(' | ')} | ${esc(p.dates)}</p>${bullets(p.bullets)}</div>`).join('')}
 <h2>Education</h2>${cv.education.map((e) => `<p><b>${esc(e.degree)}</b> | ${esc(e.school)} | ${esc(e.dates)}</p>`).join('')}
 <h2>Certifications</h2><p>${cv.certifications.map((c) => esc(`${c.name}, ${c.issuer}, ${c.date}`)).join(' | ')}</p>
-<h2>References</h2><p>${esc(cv.references)}</p>
+<h2>References</h2>${referees.length ? referees.map((r) => `<p>${esc(refereeLine(r))}</p>`).join('') : `<p>${esc(cv.references)}</p>`}
 </body></html>`;
 }
 
