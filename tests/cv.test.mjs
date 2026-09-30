@@ -18,8 +18,16 @@ test('every line of the CV follows the writing rules', () => {
   assert.deepEqual(problems, []);
 });
 
+const MOBILE = /\+?61\s?4\d{2}|04\d{2}\s?\d{3}\s?\d{3}/;
+
 test('the public CV data holds no phone number', () => {
-  assert.doesNotMatch(JSON.stringify(cv), /\+?61\s?4\d{2}|04\d{2}\s?\d{3}\s?\d{3}/);
+  assert.doesNotMatch(JSON.stringify(cv), MOBILE);
+});
+
+test('no public text file holds a real mobile number', () => {
+  for (const file of ['../README.md', '../docs/PORTFOLIO.md', '../site/index.html', '../site/404.html']) {
+    assert.doesNotMatch(readFileSync(new URL(file, import.meta.url), 'utf8'), MOBILE, file);
+  }
 });
 
 test('the CV uses the one CV email address', () => {
