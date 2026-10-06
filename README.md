@@ -51,7 +51,7 @@
 
 ## ⟡ About
 
-<img align="right" width="320" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1000&color=6366F1&center=false&vCenter=true&width=320&height=140&multiline=true&lines=%3E+const+gaurav+%3D+%7B;++base%3A+%27Melbourne%27%2C;++builds%3A+%27Connect+%2B+AWS+%2B+AI%27%2C;++ships%3A+%27to+production%27%2C;%7D%3B" alt="about-snippet" />
+<img width="100%" src="./assets/about-life.svg?v=1" alt="About Gaurav. Amazon Connect, AWS and Terraform, data and reporting, building with AI. Interests are building AI tools, cricket and travel." />
 
 I'm an AI and data analyst and Amazon Connect engineer based in Melbourne. I build **AWS and Amazon Connect** systems for contact centres, and the **SQL and Power BI reporting** that shows whether they work. Before cloud I spent close to five years in contact centres and IT support, first taking the calls and then leading a team of fifteen, so I build for the agent on the other side of the screen.
 
@@ -66,51 +66,7 @@ I'm an AI and data analyst and Amazon Connect engineer based in Melbourne. I bui
 
 ## ⟡ Tech Stack
 
-<div align="center">
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-0B1120?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0D1117?style=for-the-badge&logo=framer&logoColor=8B5CF6)
-
-**Backend and Data**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-**Cloud, Contact Centre and Tooling**
-
-![Amazon Connect](https://img.shields.io/badge/Amazon_Connect-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-
-**AI**
-
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Codex](https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=for-the-badge&logo=openrouter&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-0D1117?style=for-the-badge&logo=anthropic&logoColor=D97757)
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=ts,py,js,nodejs,react,nextjs,tailwind,postgres,supabase,aws,docker,terraform,githubactions,jenkins,vercel,git&theme=dark&perline=8" alt="skill-icons" />
-
-</div>
+<img width="100%" src="./assets/stack.svg?v=1" alt="Tech stack. TypeScript, Python, SQL, JavaScript, React, Next.js, Tailwind CSS, Node.js, PostgreSQL, Supabase, DynamoDB, Power BI, MSPBots, Amazon Connect, AWS Lambda, Terraform, Docker, GitHub Actions, Jenkins, Claude Code, Codex, OpenRouter and MCP." />
 
 ---
 
